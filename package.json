@@ -1,0 +1,30 @@
+{
+  "name": "neural-nexus",
+  "version": "1.0.0",
+  "description": "AI Education Website - Neural Nexus",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence",
+    "machine-learning",
+    "education",
+    "website"
+  ],
+  "author": "Neural Nexus",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0"
+  }
+}
